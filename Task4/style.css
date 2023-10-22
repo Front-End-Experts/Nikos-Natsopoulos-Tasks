@@ -1,0 +1,25 @@
+body {
+    background-color: lightyellow; /* Background Color */
+    font-family: Arial, Helvetica, sans-serif;/* Font for all the texts in the page */
+}
+
+.videocontainer {
+    display: flex; /* flex container so videos will be aligned next to each other */
+    justify-content: space-around; /* Create space between them */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.videoleft,.videoright {
+    margin: 10px;
+}
+ /* Remove the default border of iframes */
+iframe {
+    border: none;
+}
+/*Style the text under the videos*/
+p {
+    font-size: 16px;
+    color: black;
+}
