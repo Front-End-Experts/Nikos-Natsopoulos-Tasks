@@ -1,0 +1,34 @@
+#main-menu {
+    /* Background color for the main menu */
+    background-color: #3498db;
+    padding: 10px;
+}
+
+#main-menu a {
+    /* Styling the main menu items (Colour, Underline)*/
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-menu a:hover {
+    /*Hover effect when hovering over the items. Color change, time of change for a smooth transition*/
+    background-color: #e74c3c;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#main-menu li {
+    /*Edit the marging and padding of the menu items*/
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#main-menu li a {
+    /* Styling elements that are descendants of another element*/
+    font-weight: bold;
+}
+
+#main-menu > li {
+    /* Styling elements that are direct children of another element. We also use > symbol so we onlystyle the top level, not nested sub menus*/
+    font-size: 16px;
+}
