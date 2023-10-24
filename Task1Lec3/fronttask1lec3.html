@@ -7,7 +7,7 @@
             ul.nav-menu{
                 list-style: none;
                 padding: 0;
-                background-color: lightseagreen;
+                background-color: #333;
                 text-align: center;
             }
 
@@ -18,16 +18,19 @@
 
             ul.nav-menu li a{
                 text-decoration: none;
-                color: white;
+                color: #fff;
                 padding: 10px 20px;
-                border: 1px solid white;
+                border: 2px solid transparent;
+                border-radius: 5px;
                 transition: all 0.3s ease; /*Smooth transition*/
             }
 
             /*Here changes the background color when hover*/
             ul.nav-menu li a:hover{
-                background-color: white;
-                color: lightseagreen;
+                background-color: #ff6600;
+                color: #fff;
+                transform: scale(1.1);
+                border-color: #ff6600;
             }
         </style>
     </head>
