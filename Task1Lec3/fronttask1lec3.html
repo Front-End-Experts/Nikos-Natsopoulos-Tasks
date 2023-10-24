@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nav Menu</title>
+        <style>
+            /*This is the styling for the navigation menu*/
+            ul.nav-menu{
+                list-style: none;
+                padding: 0;
+                background-color: lightseagreen;
+                text-align: center;
+            }
+
+            ul.nav-menu li{
+                display: inline-block;
+                margin: 10px;
+            }
+
+            ul.nav-menu li a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                border: 1px solid white;
+                transition: all 0.3s ease; /*Smooth transition*/
+            }
+
+            /*Here changes the background color when hover*/
+            ul.nav-menu li a:hover{
+                background-color: white;
+                color: lightseagreen;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </body>
+</html>
